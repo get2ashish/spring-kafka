@@ -1,0 +1,3 @@
+Step 1 : docker-compose up
+Step 2 : docker exec -it kafka1 bash
+Step 3 : kafka-topics --bootstrap-server kafka1:19092 --create --topic mytopic --replication-factor 1 --partitions 4
